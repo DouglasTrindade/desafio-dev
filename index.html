@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge" />
+	<title>Cadastro do Jogador | BOMDIA</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+	<div class="wrapper">
+		<form action="" id="formulario" method="POST" name="formulario">
+			<legend>
+				Cadastro do Jogador
+			</legend>
+			<div class="input-group">
+				<label for="nome">Nome:</label>
+				<input
+					type="text"
+					id="nome"
+					name="nome"
+					placeholder="Insira seu nome"
+				/>
+			</div>
+			<div class="input-group">
+				<label for="sobrenome">Sobrenome:</label>
+				<input
+					type="text"
+					id="sobrenome"
+					placeholder="Insira seu sobrenome"
+				/>
+			</div>
+			<div class="input-group">
+				<label for="data">Data de Nascimento:</label>
+				<input
+					type="data"
+					id="data"
+					placeholder="Ex:14/01/1994"
+				/>
+			</div>
+			<div class="input-group">
+				<label for="usuario">Nome do Usuário</label>
+				<input
+					type="text"
+					id="nomeusuario"
+					placeholder="Insira seu usuário"
+				/>
+			</div>
+			<div class="input-group">
+				<label for="email">E-mail</label>
+				<input
+					type="email"
+					id="email"
+					placeholder="Insira seu e-mail"
+				/>
+			</div>
+			<div class="input-group">
+				<label for="senha">Senha:</label>
+				<input
+					type="password"
+					id="senha"
+					placeholder="Insira sua senha"
+				/>
+			</div>
+			<div class="footer">
+				<button type="button" class="botao" onclick="validar()">
+				Se inscrever
+				</button>
+			</div>
+		</form>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
